@@ -11,6 +11,7 @@
 		22B25511291EA0C200A70762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B25510291EA0C200A70762 /* ContentView.swift */; };
 		22B25513291EA0C300A70762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B25512291EA0C300A70762 /* Assets.xcassets */; };
 		22B25516291EA0C300A70762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B25515291EA0C300A70762 /* Preview Assets.xcassets */; };
+		22B2551D291EA0F100A70762 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2551C291EA0F100A70762 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		22B25510291EA0C200A70762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22B25512291EA0C300A70762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B25515291EA0C300A70762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22B2551C291EA0F100A70762 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				22B2550E291EA0C200A70762 /* AboutBogdanApp.swift */,
 				22B25510291EA0C200A70762 /* ContentView.swift */,
+				22B2551C291EA0F100A70762 /* InfoView.swift */,
 				22B25512291EA0C300A70762 /* Assets.xcassets */,
 				22B25514291EA0C300A70762 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B25511291EA0C200A70762 /* ContentView.swift in Sources */,
+				22B2551D291EA0F100A70762 /* InfoView.swift in Sources */,
 				22B2550F291EA0C200A70762 /* AboutBogdanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
