@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220A099A291FCA6800CF9DD5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A0999291FCA6800CF9DD5 /* HomeView.swift */; };
+		220A099C291FD29900CF9DD5 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A099B291FD29900CF9DD5 /* HistoryView.swift */; };
 		22B2550F291EA0C200A70762 /* AboutBogdanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2550E291EA0C200A70762 /* AboutBogdanApp.swift */; };
 		22B25511291EA0C200A70762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B25510291EA0C200A70762 /* ContentView.swift */; };
 		22B25513291EA0C300A70762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B25512291EA0C300A70762 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220A0999291FCA6800CF9DD5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		220A099B291FD29900CF9DD5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		22B2550B291EA0C200A70762 /* AboutBogdan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutBogdan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B2550E291EA0C200A70762 /* AboutBogdanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutBogdanApp.swift; sourceTree = "<group>"; };
 		22B25510291EA0C200A70762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220A099D291FD2B200CF9DD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22B25510291EA0C200A70762 /* ContentView.swift */,
+				220A099B291FD29900CF9DD5 /* HistoryView.swift */,
+				22B2551C291EA0F100A70762 /* InfoView.swift */,
+				220A0999291FCA6800CF9DD5 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		22B25502291EA0C200A70762 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				22B2550E291EA0C200A70762 /* AboutBogdanApp.swift */,
-				22B25510291EA0C200A70762 /* ContentView.swift */,
-				22B2551C291EA0F100A70762 /* InfoView.swift */,
+				220A099D291FD2B200CF9DD5 /* Views */,
 				22B25512291EA0C300A70762 /* Assets.xcassets */,
 				22B25514291EA0C300A70762 /* Preview Content */,
 			);
@@ -141,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B25511291EA0C200A70762 /* ContentView.swift in Sources */,
+				220A099A291FCA6800CF9DD5 /* HomeView.swift in Sources */,
+				220A099C291FD29900CF9DD5 /* HistoryView.swift in Sources */,
 				22B2551D291EA0F100A70762 /* InfoView.swift in Sources */,
 				22B2550F291EA0C200A70762 /* AboutBogdanApp.swift in Sources */,
 			);

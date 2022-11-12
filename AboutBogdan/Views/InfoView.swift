@@ -18,15 +18,17 @@ struct InfoView: View {
 	
 	var body: some View {
 		RoundedRectangle(cornerRadius: 25)
-			.fill(Color.white)
+			.fill(Color.accentColor)
 			.frame(height: 40, alignment: .center)
 			.overlay(HStack {
 				imageView
 					.resizable()
 					.scaledToFit()
 					.padding(.vertical, 10)
+					.foregroundColor(.white)
 				Text(text)
 					.buttonStyle(.plain)
+					.foregroundColor(.white)
 			})
 			.padding()
 	}
